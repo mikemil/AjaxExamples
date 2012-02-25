@@ -1,0 +1,13 @@
+<div id="searchresults">
+    <g:if test="${searchresults}">
+       <br/>
+       <h3>Search Results</h3>
+       <div class="list">
+           <ul>
+           <g:each in="${searchresults?}" var="book">
+              <li>${book}</li>
+           </g:each>
+           </ul>
+       </div>
+    </g:if>
+</div>
