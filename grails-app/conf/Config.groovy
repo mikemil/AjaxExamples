@@ -30,6 +30,10 @@ grails.mime.types = [ html: ['text/html','application/xhtml+xml'],
 grails.views.default.codec = "none" // none, html, base64
 grails.views.gsp.encoding = "UTF-8"
 grails.converters.encoding = "UTF-8"
+
+//grails.views.javascript.library="jquery"
+grails.views.javascript.library="prototype"
+
 // enable Sitemesh preprocessing of GSP pages
 grails.views.gsp.sitemesh.preprocess = true
 // scaffolding templates configuration

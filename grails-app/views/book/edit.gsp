@@ -1,5 +1,3 @@
-
-
 <%@ page import="ajax.Book" %>
 <html>
     <head>
